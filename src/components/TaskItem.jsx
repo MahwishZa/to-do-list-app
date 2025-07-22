@@ -75,6 +75,7 @@ const TaskItem = ({ task, refreshTasks }) => {
             Edit
           </button>
         )}
+        
         <button onClick={handleDelete} className="text-red-500 hover:underline">
           Delete
         </button>
