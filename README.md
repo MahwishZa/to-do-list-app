@@ -1,6 +1,6 @@
 # Full Stack To-Do List Application
 
-A simple and responsive full-stack To-Do list web application featuring user authentication and task management.
+A simple and responsive To-Do list web application featuring user authentication and task management.
 
 ## Features
 
