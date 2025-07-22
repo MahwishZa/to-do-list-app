@@ -23,7 +23,7 @@ export const getAllTasksController = async (req, res) => {
       error
     });
   }
-};
+}
 
 export const createTaskController = async (req, res) => {
   try {
@@ -65,7 +65,7 @@ export const createTaskController = async (req, res) => {
       error
     });
   }
-};
+}
 
 export const updateTaskController = async (req, res) => {
   try {
@@ -90,7 +90,7 @@ export const updateTaskController = async (req, res) => {
   } catch (error) {
     return res.status(400).json({ success: false, message: "Error updating task", error });
   }
-};
+}
 
 export const getTaskByIdController = async (req, res) => {
   try {
@@ -117,7 +117,7 @@ export const deleteTaskController = async (req, res) => {
   } catch (error) {
     return res.status(400).json({ success: false, error });
   }
-};
+}
 
 export const userTaskController = async (req, res) => {
   try {
@@ -133,7 +133,7 @@ export const userTaskController = async (req, res) => {
   } catch (error) {
     return res.status(400).json({ success: false, error });
   }
-};
+}
 
 export const toggleCompleteController = async (req, res) => {
   try {
@@ -153,4 +153,4 @@ export const toggleCompleteController = async (req, res) => {
   } catch (error) {
     return res.status(400).json({ success: false, error });
   }
-};
+}
