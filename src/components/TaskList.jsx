@@ -13,11 +13,10 @@ const TaskList = () => {
   const [sortOrder, setSortOrder] = useState("newest");
   const userId = localStorage.getItem("userId");
 
-  // If the user is not authenticated, redirect to login
   if (!userId) {
     toast.error("User not authenticated. Please login.");
     navigate("/login");
-  }
+  }  // If the user is not authenticated, redirect to login
 
   const fetchTasks = async () => {
     try {
